@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Elena C">
     <title>My Boostrap Project</title>
 
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 
+    <!-- Custom CSS -->
     <link rel="sylesheet" href="styles.css">
-
 </head>
 <body>
-    <!--NAVBAR-->
+  
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        
         <div class="container-fluid">
+          <!-- Brand Logo -->
           <a class="navbar-brand" href="index.html">Anchor Arms Fitness</a>
           
-          
-          <!--HAMBURGER BUTTON-->
+          <!-- Hamburger Button for Mobile View -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
          
+          <!-- Navigation Links -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -33,157 +35,107 @@
               <li class="nav-item">
                 <a class="nav-link" href="destinations.html">Destinations</a>
               </li>
-              
             </ul>
-
+            <!-- Search Form -->
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-
           </div>
         </div>
+    </nav>
 
-      </nav>
-
-      <!--Hero-->
-      <div>
-        <img class="img-fluid" src="Week 3 images/- A vibrant and retro 80's-themed fitness center called 'Anchor Arms Fitness.' The design features neon pink and blue signage.webp" Alt="Anchor Arms Fitness"
-      </div>
-      <!--Welcome-->
-      <h1 class="text-center p-1">Welcome to Anchor Arms Fitness – Where You’ll Sting Like a Jellyfish and Flex Like a Kraken!</h1>
-      <p class="text-center fs-5 m-3 p-3">Anchor Arms Fitness is a retro fitness center chain with an underwater twist. We offer a variety of fitness classes, including "Jellyfish Jumps" (high-intensity cardio), "Coral Crunches" (core workouts) and a "Flex Like a Krab" area with posing mirrors and retro lights</p>
-      
-      <!--Cards-->
-      <div class="container">
+    <!-- Hero Section with Image -->
+    <div>
+        <img class="img-fluid" src="Week 3 images/- A vibrant and retro 80's-themed fitness center called 'Anchor Arms Fitness.' The design features neon pink and blue signage.webp" Alt="Anchor Arms Fitness">
+    </div>
+    
+    <!-- Welcome Message -->
+    <h1 class="text-center p-1">Welcome to Anchor Arms Fitness – Where You’ll Sting Like a Jellyfish and Flex Like a Kraken!</h1>
+    <p class="text-center fs-5 m-3 p-3">Anchor Arms Fitness is a retro fitness center chain with an underwater twist...</p>
+    
+    <!-- Cards Section -->
+    <div class="container">
         <div class="row row-cols-1 row-cols-lg-3 g-5 m-3 pt-5">
-
+          <!-- Card 1 -->
           <div class="col">
             <div class="card h-100 shadow-lg">
               <img src="Week 3 images/coral crunch.jpg" class="card-img-top" alt="coral crunch room">
               <div class="card-body">
                 <h5 class="card-title">The Coral Crunch</h5>
-                <p class="card-text fs-5">This vibrant space, inspired by the ocean's depths, is designed to help you sculpt your core and achieve your fitness goals. Immerse yourself in an underwater wonderland as you tackle a variety of core-strengthening exercises, from crunches and planks to twists and leg raises.</p>
+                <p class="card-text fs-5">This vibrant space, inspired by the ocean's depths, helps sculpt your core...</p>
               </div>
             </div>
-            
           </div>
-
+          <!-- Card 2 -->
           <div class="col">
             <div class="card h-100 shadow-lg">
               <img src="Week 3 images/krabs mirror.jpg" class="card-img-top" alt="Flex Like a Crab">
               <div class="card-body">
                 <h5 class="card-title">Flex Like a Krab</h5>
-                <p class="card-text fs-5">Step into our Flex Like a Krab Mirror Room and unleash your inner fitness superstar! This vibrant space is designed to help you perfect your poses, build confidence, and celebrate your achievements.</p>
+                <p class="card-text fs-5">Step into our mirror room and perfect your poses...</p>
               </div>
             </div>
           </div>
-
+          <!-- Card 3 -->
           <div class="col">
             <div class="card h-100 shadow-lg">
               <img src="Week 3 images/anchor treadmills.webp" class="card-img-top" alt="Jellyfish Jumps">
               <div class="card-body">
                 <h5 class="card-title">Jellyfish Jumps</h5>
-                <p class="card-text fs-5">Jellyfish Jump Cardio Room is a vibrant and energetic space designed to help you get your heart pumping and your endorphins soaring. This cardio haven is equipped with state-of-the-art equipment, including treadmills, ellipticals, stationary bikes, and more.</p>
+                <p class="card-text fs-5">Get your heart pumping in our cardio room...</p>
               </div>
             </div>
-         
           </div>
-       
         </div>
-      </div>
-     <!--Picture Div-->
-     <div class="container mt-5 mb-5 pt-5 pb-5 text-center"> 
-      <h2>Get Buff like a Buffoon!</h2>
-    
-      <div class="row g-0"> 
-        <div class="col-sm-6">
-          <img src="Week 3 images/zumba room.webp" alt="zumba class" class="img-fluid"> 
-        </div>
-        <div class="col-sm-6">
-          <img src="Week 3 images/juice bar.jpg" alt="juice bar" class="img-fluid">
-        </div>
-      </div>
-    
-      <div class="row g-0"> 
-        <div class="col-sm-6">
-          <img src="Week 3 images/inside jellyfish jam.jpg" alt="jellyfish jam" class="img-fluid">
-        </div>
-        <div class="col-sm-6">
-          <img src="Week 3 images/outside jellyfish jam.jpg" alt="outise the Gym" class="img-fluid">
-        </div>
-      </div>
     </div>
-      <!--Img View All Locations-->
-      <div class="container mt-5 pt-5">
-        <div class="card text-bg-dark">
-        <img src="Week 3 images/spongebob mirror.jpg" class="card-img img-fluid" alt="See all of our locations" width="400">
-        <div class="card-img-overlay">
-          <h3 class="card-title">View All Locations</h3>
-          <p class="card-text fs-5">Work anywhere on land or in the sea</p>
-        </div>
-      </div>
-      </div>
-      
 
-      <!--Contact Form-->
-      <h1 class="text-center mt-5 pt-5">Contact Us</h1>
-      <h2 class="text-center mb-4">Get more information about Anchor Arms Fitness</h2>
-      
-      <div class="container">
-      <form class="row g-3 mb-5 ms-3 me-3 p-5">
-        <div class="col-md-6">
+    <!-- Contact Form Section -->
+    <h1 class="text-center mt-5 pt-5">Contact Us</h1>
+    <h2 class="text-center mb-4">Get more information about Anchor Arms Fitness</h2>
+    <div class="container">
+        <form class="row g-3 mb-5 ms-3 me-3 p-5">
+          <div class="col-md-6">
             <label for="firstname" class="form-label">First name</label>
-            <input type="text" class="form-control"  aria-label="First name" id="firstname">
+            <input type="text" class="form-control" id="firstname">
           </div>
           <div class="col-md-6">
             <label for="lastname" class="form-label">Last name</label>
-            <input type="text" class="form-control" aria-label="Last name" id="lastname">
+            <input type="text" class="form-control" id="lastname">
           </div>
-  
-        <div class="col-md-12">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-       
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-          
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </form>
+          <div class="col-md-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="pt-5 pb-5">
+      <div class="text-center p-2"> 
+        <h5>Anchor Arms Fitness International &copy;2025</h5>
       </div>
-
-      <!--Footer-->
-      <footer class="pt-5 pb-5">
-       <div class="text-center p-2"> 
-        <h5>Anchor Arms Fitness International copyrighted 2025</h5>
-       </div>
-      </footer>
-      
-
-      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
